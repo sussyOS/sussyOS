@@ -1,0 +1,1 @@
+s/@WORDSIZE@/32/g
