@@ -35,10 +35,10 @@ VARS.Add("imageSize",
          converter=ParseSize)
 VARS.Add("toolchain", 
          help="Path to toolchain directory.",
-         default="toolchain")
+         default="gcc-x86")
 
 DEPS = {
-    'binutils': '2.4',
+    'binutils': '2.44',
     'gcc': '14.2.0'
 }
 
