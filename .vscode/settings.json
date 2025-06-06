@@ -1,9 +1,0 @@
-{
-    "files.autoSave": "afterDelay",
-    "files.autoSaveDelay": 1,
-    "files.autoSaveWhenNoErrors": true,
-    "files.associations": {
-        "*.asm": "asm-intel-x86-generic",
-        "x86.h": "c"
-    }
-}
