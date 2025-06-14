@@ -1,3 +1,4 @@
 /gcc-x86
 /build
 /.vscode
+.sconsign.dblite

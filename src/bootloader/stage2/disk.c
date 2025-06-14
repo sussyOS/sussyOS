@@ -1,8 +1,6 @@
 #include "disk.h"
 #include "x86.h"
 #include "stdio.h"
-#include <stdbool.h>
-#include <stdarg.h>
 
 bool DISK_Initialize(DISK* disk, uint8_t driveNumber)
 {
@@ -13,8 +11,8 @@ bool DISK_Initialize(DISK* disk, uint8_t driveNumber)
         return false;
 
     disk->id = driveNumber;
-    disk->cylinders = cylinders + 1;
-    disk->heads = heads + 1;
+    disk->cylinders = cylinders;
+    disk->heads = heads;
     disk->sectors = sectors;
 
     return true;
