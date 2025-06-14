@@ -2,3 +2,4 @@
 /build
 /.vscode
 .sconsign.dblite
+build_scripts/__pycache__/
