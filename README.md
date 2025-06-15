@@ -1,6 +1,6 @@
 # sussyOS
 
-Welcome to **sussyOS** — a fully custom, non-Linux-based operating system built from the ground up. Designed for uniqueness and performance, sussyOS is an experimental project aiming to redefine what an operating system can be when unconstrained by legacy codebases and traditional architectures.
+Welcome to **sussyOS** — a fully custom operating system built from the ground up. Designed for uniqueness and performance, sussyOS is an experimental project aiming to redefine what an operating system can be when unconstrained by legacy codebases and traditional architectures.
 
 > 🚨 **NOTE**: sussyOS is under active development and is currently in a pre-alpha state. Major features, bootloader support, and package management are work-in-progress.
 
@@ -10,8 +10,7 @@ Welcome to **sussyOS** — a fully custom, non-Linux-based operating system buil
 
 - ✅ Build a completely custom operating system (not based on Linux or Unix)
 - 🛠️ Develop a functional GUI, CLI, and core OS kernel
-- 📦 Add a built-in package manager (inspired by `sussy --install`)
-- 📂 Distribute via GitHub Releases using traditional Windows installer UX
+- 📦 Add a built-in package manager (inspired by `vent`)
 - 🔒 Closed-source with potential for open-source community editions
 
 ---
