@@ -32,6 +32,8 @@ Welcome to **sussyOS** — a fully custom, non-Linux-based operating system buil
 
 ## 📦 susScript Compatibility
 
+> ⚠️ **This OS is not compadible with [susScript](https://github.com/sussyOS/susScript) yet!!!.**
+
 sussyOS is natively compatible with **[susScript](https://github.com/sussyOS/susScript)** — a custom programming language built for this OS. susScript packages can be installed, interpreted, and compiled within sussyOS using the `sussy` compiler.
 
 ---
