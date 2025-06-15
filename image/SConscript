@@ -195,7 +195,7 @@ def unmount_fs(mount_dir: str, mount_method, mount_token):
 def build_disk(image, stage1, stage2, kernel, files, env):
     size_sectors = (env['imageSize'] + SECTOR_SIZE - 1) // SECTOR_SIZE
     file_system = env['imageFS']
-    mount_method = env['mountMethod']
+    mount_method = "mount" #env['mountMethod']
     partition_offset = 2048
 
     stage1_size = os.stat(stage1).st_size
