@@ -25,13 +25,13 @@ Welcome to **sussyOS** — a fully custom operating system built from the ground
 | File System Support    | 🚧 In Progress   |
 | GUI Interface          | 🔲 Planned     |
 | Package Manager        | 🔲 Not Implemented |
-| Installer (Windows UX) | ✅ Planned     |
+| Installer (with GUI) | ✅ Planned     |
 
 ---
 
 ## 📦 susScript Compatibility
 
-> ⚠️ **This OS is not compadible with [susScript](https://github.com/sussyOS/susScript) yet!!!.**
+> 😞 **This OS is not compadible with [susScript](https://github.com/sussyOS/susScript) yet!!!.**
 
 sussyOS is natively compatible with **[susScript](https://github.com/sussyOS/susScript)** — a custom programming language built for this OS. susScript packages can be installed, interpreted, and compiled within sussyOS using the `sussy` compiler.
 
@@ -44,8 +44,8 @@ sussyOS is natively compatible with **[susScript](https://github.com/sussyOS/sus
 
 ### Prerequisites
 
-- A working build of the `sussy` compiler
-- Knowledge of low-level OS dev (C/C++/ASM)
+- A working build of the `scons` compiler
+- Knowledge of OS testing
 - VirtualBox or QEMU for testing
 
 ### Cloning the Repository
