@@ -1,6 +1,6 @@
 [bits 32]
 
-; void __attribute__((cdecl)) i686_IDT_Load(IDTDescriptor* idtDescriptor);
+; void __attribute__((cdecl)) i8259_IDT_Load(IDTDescriptor* idtDescriptor);
 global i8259_IDT_Load
 i8259_IDT_Load:
 
