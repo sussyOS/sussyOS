@@ -35,7 +35,7 @@ VARS.Add("imageSize",
          converter=ParseSize)
 VARS.Add("toolchain", 
          help="Path to toolchain directory.",
-         default="gcc-x86")
+         default="/home/george/workspace/sussyOS/gcc-x86")
 
 DEPS = {
     'binutils': '2.44',
@@ -92,7 +92,7 @@ if HOST_ENVIRONMENT['arch'] == 'i686':
 
 toolchainDir = Path(HOST_ENVIRONMENT['toolchain'])
 toolchainBin = Path(toolchainDir, 'bin')
-toolchainGccLibs = Path(toolchainDir, 'lib', 'gcc', RemoveSuffix(platform_prefix, '-'),DEPS['gcc'])
+toolchainGccLibs = Path(toolchainDir, 'lib','gcc', RemoveSuffix(platform_prefix, '-'),DEPS['gcc'])
 
 TARGET_ENVIRONMENT = HOST_ENVIRONMENT.Clone(
     AR = f'{platform_prefix}ar',
@@ -104,7 +104,7 @@ TARGET_ENVIRONMENT = HOST_ENVIRONMENT.Clone(
 
     # toolchain
     TOOLCHAIN_PREFIX = str(toolchainDir),
-    TOOLCHAIN_LIBGCC = str(toolchainGccLibs),
+    TOOLCHAIN_LIBGCC = str(toolchainGccLibs).removeprefix('/'),
     BINUTILS_URL = f'https://ftp.gnu.org/gnu/binutils/binutils-{DEPS["binutils"]}.tar.xz',
     GCC_URL = f'https://ftp.gnu.org/gnu/gcc/gcc-{DEPS["gcc"]}/gcc-{DEPS["gcc"]}.tar.xz',
 )
@@ -139,7 +139,7 @@ Export('TARGET_ENVIRONMENT')
 variantDir = 'build/{0}_{1}'.format(TARGET_ENVIRONMENT['arch'], TARGET_ENVIRONMENT['config'])
 variantDirStage1 = variantDir + '/stage1_{0}'.format(TARGET_ENVIRONMENT['imageFS'])
 
-#SConscript('src/libs/core/SConscript', variant_dir=variantDir + '/libs/core', duplicate=0)
+SConscript('src/libs/core/SConscript', variant_dir=variantDir + '/libs/core', duplicate=0)
 
 SConscript('src/bootloader/stage1/SConscript', variant_dir=variantDirStage1, duplicate=0)
 SConscript('src/bootloader/stage2/SConscript', variant_dir=variantDir + '/stage2', duplicate=0)
