@@ -1,20 +1,26 @@
+Non-Commercial License v1.0
+
 Copyright (c) 2025 sussyOS
 
-Permission is hereby granted to any individual or organization to use, copy, and distribute this software and its source code, **for non-commercial purposes only**, provided that the following conditions are met:
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to use
+the Software for personal, educational, and non-commercial purposes only,
+subject to the following conditions:
 
-1. **Non-Commercial Use Only**  
-   This software may not be used, in whole or in part, for commercial purposes. This includes but is not limited to: commercial products, services, SaaS platforms, paid support, or any direct or indirect monetization.
+1. Commercial use of the Software, including but not limited to using,
+   copying, modifying, merging, publishing, distributing, sublicensing, or
+   selling copies of the Software for commercial gain is strictly prohibited.
 
-2. **Redistribution Without Modification**  
-   You may redistribute this software **only in its original, unmodified form**. Modifications, forks, or derivative works may not be shared, published, or distributed.
+2. The Software may be shared or redistributed only in its original, unmodified
+   form. You may not modify, adapt, or create derivative works of this Software
+   and then redistribute or publish it.
 
-3. **Attribution Required**  
-   You must retain this license and the original copyright notice in all copies or redistributions.
+3. This license and copyright notice must be included in all copies or substantial
+   portions of the Software.
 
-4. **No Warranty**  
-   This software is provided "as is", without warranty of any kind, express or implied.
-
-Any violation of these terms will automatically terminate your rights under this license.
-
-For commercial licensing or exceptions, contact the author.
-
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
